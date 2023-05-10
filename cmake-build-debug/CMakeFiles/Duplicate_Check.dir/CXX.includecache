@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jimmy233/Desktop/c++/Compilation Principle/Duplicate Check/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+vector
+-
+queue
+-
+cstdio
+-
+

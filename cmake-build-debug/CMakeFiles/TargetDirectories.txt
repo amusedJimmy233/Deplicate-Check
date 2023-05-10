@@ -1,0 +1,3 @@
+/Users/jimmy233/Desktop/c++/Compilation Principle/Duplicate Check/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jimmy233/Desktop/c++/Compilation Principle/Duplicate Check/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jimmy233/Desktop/c++/Compilation Principle/Duplicate Check/cmake-build-debug/CMakeFiles/Duplicate_Check.dir

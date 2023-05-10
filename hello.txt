@@ -1,0 +1,41 @@
+//
+// Created by 北辰 on 2023/3/2.
+//
+
+//
+// Created by Jimmy on 2023/2/23.
+//
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "hello world"; //hello
+
+    /*
+     * 这是注释
+     * 这是注释
+     * 这是注释
+     * 这是注释
+     */
+    //hello
+
+    for (int i=0;i<99;i++) cout<<i;
+
+    cout<<"abc";
+    cout<<"877";
+    cout<<"godfFF";
+
+
+    return 0;
+}
+
+//删除标点符号
+string delete_signal_sign(string target, const string &sign) {
+    size_t start = target.find(sign);
+    while (start!=std::string::npos) {
+        target.erase(start,1);
+        start = target.find(sign);
+    }
+    return target;
+}
